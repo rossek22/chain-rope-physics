@@ -99,12 +99,6 @@ Simply open `index.html` in a modern web browser supporting Canvas.
 
 ---
 
-## License / Лицензия
-
-MIT License
-
----
-
 ## Author / Автор
 
 Rossek2
