@@ -1,0 +1,25 @@
+      /* Сброс отступов и запрет скролла, черный фон 
+         Reset margin and prevent scrolling, black background */
+      html,
+      body {
+        margin: 0;
+        overflow: hidden;
+        background: #111;
+      }
+      /* Канвас как блочный элемент без отступов
+         Canvas as block element with no margin */
+      canvas {
+        display: block;
+      }
+      /* Информационный блок с подсказками
+         Info box with key hints */
+      #info {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        color: #ccc;
+        font-family: sans-serif;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 8px 12px;
+        border-radius: 6px;
+      }
